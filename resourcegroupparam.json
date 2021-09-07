@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "rgName": {
+            "value": "RG-DDM-TEST"
+        },
+        "rglocation": {
+            "value": "East us"
+        },
+        "tags": {
+            "value": {
+                "ApplicationID":"500332",
+                "ApplicationName":"Demand Decison Management",
+                "ApplicationOwnerEmail":"abaker37@dxc.com",
+                "WBS":"IN1-G1TI1.01.05",
+                "CostCenter":"INES504003",
+                "environment":"ITG",
+                "L3BusinessOwner":"Russell.Jukes@dxc.com",
+                "Criticality":"3 - less critical",
+                "BudgetExceded":"No"
+
+            }
+        }
+    }
+}
